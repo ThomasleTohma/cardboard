@@ -20,7 +20,6 @@
   "homepage": "https://github.com/ThomasleTohma/cardboard#readme",
   "devDependencies": {
     "parcel": "^1.12.4",
-    "parcel-bundler": "^1.12.4",
     "pug": "^3.0.2"
   }
 }

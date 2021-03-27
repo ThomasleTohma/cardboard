@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img {
+  max-width: 40vw;
+}
+
+.home h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 10vw;
+}
