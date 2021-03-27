@@ -5,9 +5,16 @@
   align-items: center;
 }
 
-.home img {
+.home img:first-child {
   max-width: 40vw;
   filter: drop-shadow(0.625rem 0.625rem 0.75rem rgba(0, 0, 0, 0.7));
+}
+
+.home img:last-child {
+  max-width: 10vw;
+  filter: drop-shadow(0.625rem 0.625rem 0.75rem rgba(0, 0, 0, 0.7));
+  opacity: 0.75;
+  cursor: pointer;
 }
 
 .home h1 {

@@ -8,7 +8,14 @@
   text-align: center;
   font-family: "Staatliches", cursive;
   font-size: 8vw;
-  opacity: 0.75;
+  opacity: 0.65;
+}
+
+.grid__sous-titre {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  opacity: 0.5;
 }
 
 .grid__figure {
@@ -17,9 +24,11 @@
   justify-content: center;
   align-items: center;
   border: rgba($color: #000000, $alpha: 0.1) 2rem solid;
-  background-color: rgba($color: #000000, $alpha: 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   margin: 1.25rem;
   border-radius: 1rem;
+  cursor: pointer;
+  user-select: none;
 }
 
 .grid__figure img {
@@ -34,9 +43,34 @@
   align-items: center;
   font-family: "New Tegomin", serif;
   font-size: 2rem;
+  color: white;
 }
 
 .grid__figure figcaption img {
   width: 7rem;
   margin-top: 0.625rem;
+}
+
+.grid__figure span {
+  display: none;
+  position: absolute;
+  font-family: "New Tegomin", serif;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1rem 2rem;
+  border-radius: 0.625rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.grid__figure:hover span {
+  display: initial;
+}
+
+.grid > a img {
+  width: 5rem;
+  position: fixed;
+  right: 5vw;
+  bottom: 5vh;
+  transform: rotate(0.5turn);
+  opacity: 0.75;
 }
