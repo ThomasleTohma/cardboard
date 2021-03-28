@@ -1,6 +1,6 @@
 .presentation {
   text-align: center;
-  height: 20vh;
+  min-height: 20vh;
 }
 
 .presentation__titre {
@@ -11,7 +11,7 @@
 }
 
 .presentation p {
-  margin-top: 10vh;
+  margin: 10%;
   font-size: 2rem;
   font-family: "New Tegomin", serif;
 }

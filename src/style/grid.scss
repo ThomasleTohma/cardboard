@@ -67,7 +67,8 @@
 }
 
 .grid > a img {
-  width: 5rem;
+  width: 5vw;
+  min-width: 3rem;
   position: fixed;
   right: 5vw;
   bottom: 5vh;

@@ -7,14 +7,17 @@
 
 .home img:first-child {
   max-width: 40vw;
+  max-height: 60vh;
   filter: drop-shadow(0.625rem 0.625rem 0.75rem rgba(0, 0, 0, 0.7));
 }
 
 .home img:last-child {
   max-width: 10vw;
   filter: drop-shadow(0.625rem 0.625rem 0.75rem rgba(0, 0, 0, 0.7));
-  opacity: 0.75;
+  opacity: 0.9;
   cursor: pointer;
+  min-width: 3rem;
+  bottom: 20px;
 }
 
 .home h1 {
