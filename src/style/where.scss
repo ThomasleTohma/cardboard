@@ -1,0 +1,70 @@
+.where {
+  text-align: center;
+  min-height: 20vh;
+}
+
+.where__titre {
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  font-size: 8vw;
+  opacity: 0.65;
+}
+
+.where p {
+  margin: 10%;
+  font-size: 2rem;
+  font-family: "New Tegomin", serif;
+}
+
+.where a {
+  text-decoration: none;
+  color: brown;
+}
+
+.where a:hover {
+  text-decoration: underline;
+  color: burlywood;
+}
+
+.where__slider {
+  width: 30vw;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.where__slider--slides {
+  width: 90vw;
+  animation: glisse 10s infinite;
+}
+
+.where__slider--slide {
+  float: left;
+}
+
+.where__slider--slide img {
+  width: 30vw;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-30vw);
+  }
+  43% {
+    transform: translateX(-30vw);
+  }
+  66% {
+    transform: translateX(-60vw);
+  }
+  76% {
+    transform: translateX(-60vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
